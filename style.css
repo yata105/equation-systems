@@ -1,0 +1,128 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoLight;
+    src: url(./fonts/Lato-Light.ttf);
+}
+
+* {
+    justify-content: center;
+    color: white;
+    background-color: #6c917e;
+    font-family: 'LatoRegular', sans-serif;
+}
+
+.header {
+    margin: 0;
+    padding-top: 210px;
+    padding-bottom: 32px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    font-size: 24px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-table {
+    border-collapse: collapse;
+}
+
+.main-table td {
+    text-align: center;
+    max-width: 75px;
+    padding: 4px;
+}
+
+td .input-text {
+    background: #97e8be;
+    border-radius: 7px;
+    width: 75px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-text input {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 65px;
+    height: 20px;
+}
+
+.buttons {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.button {
+    border: 2px solid white;
+    border-radius: 7px;
+    height: 40px;
+    width: 120px;
+    margin: 0 8px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #65ab87;
+    transition: 0.2s;
+}
+
+.button:active {
+    filter:brightness(1.5);
+}
+
+
+.output {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.output li {
+    padding-right: 36px;
+}
+
+#methods {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 10px;
+    padding-right: 46px;
+    font-size: 18px;
+}
+
+.section-caption {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 160px;
+    height: 15px;
+}
+
+.section-caption div {
+    height: 1px;
+    background-color: white;
+    width: 160px;
+}
+
+

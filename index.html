@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Equation Systems</title>
+</head>
+<body>
+    <header class="header">
+        <a>Решение СЛАУ</a>
+    </header>
+
+    <section class="main">
+        <table class="main-table">
+            <tr>
+                <td>A_1</td>
+                <td>A_2</td>
+                <td>A_3</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="buttons">
+        <button class="button" id="clear">
+            Clear
+        </button>
+        <button class="button" id="solve">
+            Solve
+        </button>
+    </section>
+    
+    <div style="margin: 0; display: flex; flex-direction: column; align-items: center;">
+        <a>Выберите метод:</a>
+        <div class="section-caption">
+            <div></div>  
+        </div>
+    </div>    
+
+    <section>
+        
+        <ul id="methods">
+            <li>
+                <input type="radio" name="method" id="zeidel" checked>
+                <label for="zeidel">Метод Зейделя</label>
+            </li>
+            <li>
+                <input type="radio" name="method" id="gauss">
+                <label for="gauss">Метод Гаусса</label>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <ul class="output">
+            <li>X1:</li>
+            <li>X2:</li>
+            <li>X3:</li>
+        </ul>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
